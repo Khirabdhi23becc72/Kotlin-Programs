@@ -9,3 +9,9 @@ class BankAccount {
         println(balance)
     }
 }
+
+fun main() {
+    val account = BankAccount()
+    account.deposit(1000.0)
+    account.showBalance()
+}
