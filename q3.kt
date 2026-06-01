@@ -9,3 +9,8 @@ class Motorcycle : Vehicle() {
         println("Vroom!")
     }
 }
+
+fun main() {
+    val bike = Motorcycle()
+    bike.startEngine()
+}
