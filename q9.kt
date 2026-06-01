@@ -8,3 +8,9 @@ class IDGenerator {
         }
     }
 }
+
+fun main() {
+    println(IDGenerator.getNextId())
+    println(IDGenerator.getNextId())
+    println(IDGenerator.getNextId())
+}
