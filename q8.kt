@@ -3,3 +3,7 @@ object Database {
         println("Connected to DB")
     }
 }
+
+fun main() {
+    Database.connect()
+}
