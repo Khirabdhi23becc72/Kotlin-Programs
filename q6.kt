@@ -1,9 +1,10 @@
-abstract class Animal {
-    abstract fun makeSound()
-}
+data class User(
+    val id: Int,
+    val username: String,
+    val isActive: Boolean
+)
 
-class Cat : Animal() {
-    override fun makeSound() {
-        println("Meow")
-    }
+fun main() {
+    val user = User(1, "Jyoti", true)
+    println(user)
 }
