@@ -7,3 +7,8 @@ class Cat : Animal() {
         println("Meow")
     }
 }
+
+fun main() {
+    val cat = Cat()
+    cat.makeSound()
+}
